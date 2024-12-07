@@ -25,7 +25,7 @@ Who is reponsible for returning one single item by its id or returning a 404
 ` /inventory/archive/{archive_number} `
 Who is reponsible for returning a list of items that belong to the same archive_number
 
-`{
+` {
     "result": [
     {"description":"Tapete Aubusson, estylo Luiz XIV, 1840, com 8,m.37 x 10,m.10.","archive_number":"7760","conservation_status":"Usado","section":" Geral ","id":1,"amount":"1","origin":"Fab. Aubusson - Franï¿½a","obs":"em branco"},
 

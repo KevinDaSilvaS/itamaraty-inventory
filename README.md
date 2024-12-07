@@ -17,7 +17,7 @@
 Who is reponsible for returning one single item by its id or returning a 404
 
 ` {
-    "result":    {
+    "result": {
         "archive_number":"7760","description":"Tapete Aubusson, estylo Luiz XIV, 1840, com 8,m.37 x 10,m.10.","conservation_status":"Usado","amount":"1","section":" Geral ","id":1,"origin":"Fab. Aubusson - Franï¿½a","obs":"em branco"
     }
 } `
@@ -25,9 +25,8 @@ Who is reponsible for returning one single item by its id or returning a 404
 ` /inventory/archive/{archive_number} `
 Who is reponsible for returning a list of items that belong to the same archive_number
 
-` {
-    "result":
-    [
+`{
+    "result": [
     {"description":"Tapete Aubusson, estylo Luiz XIV, 1840, com 8,m.37 x 10,m.10.","archive_number":"7760","conservation_status":"Usado","section":" Geral ","id":1,"amount":"1","origin":"Fab. Aubusson - Franï¿½a","obs":"em branco"},
 
     {"description":"Cortinas cantoneiras, de Aubusson, de seda, estylo Regencia, fundo rosa e creme com flï¿½res.","archive_number":"7760","conservation_status":"Bom","section":" Geral  ","id":2,"amount":"8","origin":"Fab. Aubusson - Franï¿½a","obs":"Comprados em 1907"},

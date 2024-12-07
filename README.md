@@ -25,7 +25,7 @@ Who is reponsible for returning one single item by its id or returning a 404
 ` /inventory/archive/{archive_number} `
 Who is reponsible for returning a list of items that belong to the same archive_number
 
-` 
+
 
     {
     "result": [
@@ -66,4 +66,4 @@ Who is reponsible for returning a list of items that belong to the same archive_
     
     {"description":"Braï¿½adeiras de bronze dourada, estylo Regencia para vidraï¿½as e para bandeiras. ","archive_number":"7760","conservation_status":"Bom","section":" Geral ","id":1971,"amount":"8","origin":"Paris ","obs":"em branco "}
         ]   
-    } `
+    } 

@@ -9,12 +9,11 @@ app = FastAPI()
 @app.on_event("startup")
 def on_startup():
     create_db_and_tables()
-    items = parse_inventory_csv(Item)
+    items = parse_inventory_csv()
     
-    for item in items:
-        with session:
-            session.add(item)
-            session.commit()
+    with session:
+        session.bulk_insert_mappings(Item, items)
+        session.commit()
     return
 
 @app.get("/")
